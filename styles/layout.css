@@ -5,6 +5,8 @@ html:not(.dark) {
     color: var(--nord0);
     background-color: var(--nord4);
   }
+
+  --slidev-code-background: var(--nord0);
 }
 
 html.dark {
@@ -12,4 +14,6 @@ html.dark {
     color: var(--nord4);
     background-color: var(--nord0);
   }
+
+  --slidev-code-background: var(--nord4);
 }
