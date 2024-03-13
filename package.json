@@ -17,6 +17,7 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
+    "@slidev/theme-default": "^0.25.0",
     "@slidev/types": "^0.48.0-beta.26",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4"
@@ -30,8 +31,8 @@
     "highlighter": "all",
     "defaults": {
       "fonts": {
-        "sans": "Nunito Sans",
-        "mono": "Fira Code"
+        "sans": "Rubik",
+        "mono": "JetBrains Mono"
       }
     }
   }

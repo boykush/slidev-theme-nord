@@ -1,5 +1,6 @@
 ---
 theme: ./
+colorSchema: light
 ---
 
 # Slidev Theme Starter
