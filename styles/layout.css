@@ -2,20 +2,20 @@
 
 html:not(.dark) {
   #slide-content {
-    color: var(--nord0);
-    background-color: var(--nord4);
+    color: var(--nord3);
+    background-color: var(--nord6);
   }
 
-  --slidev-code-background: var(--nord0);
+  --slidev-code-background: var(--nord3);
 }
 
 html.dark {
   #slide-content {
-    color: var(--nord4);
-    background-color: var(--nord0);
+    color: var(--nord6);
+    background-color: var(--nord3);
   }
 
-  --slidev-code-background: var(--nord4);
+  --slidev-code-background: var(--nord6);
 }
 
 .slidev-layout.cover,
