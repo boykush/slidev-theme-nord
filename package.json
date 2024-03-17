@@ -31,7 +31,7 @@
     "highlighter": "Shiki",
     "defaults": {
       "fonts": {
-        "sans": "Rubik",
+        "sans": "Rubik,Noto Sans JP",
         "mono": "JetBrains Mono"
       }
     }
