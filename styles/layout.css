@@ -38,7 +38,7 @@ html.dark {
 }
 
 .slidev-layout.mermaid-left {
-  .mermaid {
-    @apply box-border w-50%;
+  .col-left {
+    @apply  mr-8;
   }
 }
