@@ -3,7 +3,7 @@
 html:not(.dark) {
   #slide-content,#print-content {
     color: var(--nord3);
-    background-color: var(--nord4);
+    background-color: var(--nord5);
   }
 
   --slidev-code-background: var(--nord3);
@@ -11,11 +11,11 @@ html:not(.dark) {
 
 html.dark {
   #slide-content,#print-content {
-    color: var(--nord4);
+    color: var(--nord5);
     background-color: var(--nord3);
   }
 
-  --slidev-code-background: var(--nord4);
+  --slidev-code-background: var(--nord5);
 }
 
 .slidev-layout.cover,
