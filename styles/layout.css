@@ -1,7 +1,7 @@
 @import "./_nord.css";
 
 html:not(.dark) {
-  #slide-content {
+  #slide-content,#print-content {
     color: var(--nord3);
     background-color: var(--nord4);
   }
@@ -10,7 +10,7 @@ html:not(.dark) {
 }
 
 html.dark {
-  #slide-content {
+  #slide-content,#print-content {
     color: var(--nord4);
     background-color: var(--nord3);
   }
