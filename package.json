@@ -32,6 +32,7 @@
     "defaults": {
       "fonts": {
         "sans": "Rubik,Noto Sans JP",
+        "serif": "Kosugi Maru",
         "mono": "JetBrains Mono"
       }
     }

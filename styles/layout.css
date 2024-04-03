@@ -1,21 +1,26 @@
 @import "./_nord.css";
 
 html:not(.dark) {
-  #slide-content,#print-content {
-    color: var(--nord3);
-    background-color: var(--nord5);
-  }
-
+  --slidev-theme-primary: var(--nord5);
   --slidev-code-background: var(--nord3);
+
+  --text-color-0: var(--nord3);
+  --subtitles-background-color: var(--nord0);
 }
 
 html.dark {
-  #slide-content,#print-content {
-    color: var(--nord5);
-    background-color: var(--nord3);
-  }
-
+  --slidev-theme-primary: var(--nord3);
   --slidev-code-background: var(--nord5);
+
+  --text-color-0: var(--nord5);
+  --subtitles-background-color: var(--nord4);
+}
+
+html {
+  #slide-content,#print-content {
+    color: var(--text-color-0);
+    background-color: var(--slidev-theme-primary);
+  }
 }
 
 .slidev-layout.cover,
@@ -40,5 +45,22 @@ html.dark {
 .slidev-layout.mermaid-left {
   .col-left {
     @apply  mr-8;
+  }
+}
+
+.slidev-subtitles {
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  background-color: var(--subtitles-background-color);
+  width: 100%;
+  height: 96px;
+  padding-left: 8px;
+
+  .content {
+    font-family: "Kosugi Maru", sans-serif;
+    color: var(--slidev-theme-primary);
+    font-size: 36px;
+    line-height: 48px;
   }
 }

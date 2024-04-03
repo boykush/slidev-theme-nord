@@ -1,6 +1,8 @@
 ---
 theme: ./
 colorSchema: light
+
+aspectRatio: 4/3
 ---
 
 # Slidev Theme Starter
@@ -72,6 +74,12 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
+layout: center
+---
+
+# Layouts
+
+---
 layout: mermaid-left
 ---
 
@@ -87,6 +95,22 @@ erDiagram
 ::right::
 
 - This is block diagrams
+
+---
+layout: center
+---
+
+# Components
+
+---
+
+# Subtitles
+
+<Subtitles
+  content="これは日本語の字幕です。折りたたみはしません。二行分のスペースを設けています。"
+  fontFamily="Kosugi Maru"
+  >
+</Subtitles>
 
 ---
 layout: center
