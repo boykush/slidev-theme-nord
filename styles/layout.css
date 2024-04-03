@@ -28,11 +28,11 @@ html {
   @apply h-full grid;
 
   h1 {
-    @apply text-4xl leading-20;
+    @apply text-6xl leading-20;
   }
 
   h1 + p {
-    @apply -mt-2 opacity-50 mb-4;
+    @apply text-3xl -mt-2 opacity-50 mb-4;
   }
 
   p + h2,
@@ -42,25 +42,34 @@ html {
   }
 }
 
+.slidev-layout.section {
+  h1 {
+    @apply text-6xl h-full grid place-content-center;
+  }
+}
+
+.slidev-layout.default {
+  h1 {
+    @apply text-5xl;
+  }
+}
+
 .slidev-layout.mermaid-left {
+  h1 {
+    @apply text-5xl;
+  }
+
   .col-left {
     @apply  mr-8;
   }
 }
 
 .slidev-subtitles {
-  position: absolute;
-  left: 0px;
-  bottom: 0;
   background-color: var(--subtitles-background-color);
-  width: 100%;
-  height: 96px;
-  padding-left: 8px;
+  @apply absolute left-0 bottom-0 w-full h-96px pl-2;
 
   .content {
-    font-family: "Kosugi Maru", sans-serif;
     color: var(--slidev-theme-primary);
-    font-size: 36px;
-    line-height: 48px;
+    @apply font-serif text-4xl leading-12;
   }
 }
