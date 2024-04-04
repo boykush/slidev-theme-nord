@@ -7,7 +7,7 @@ aspectRatio: 4/3
 
 # Slidev Theme Nord
 
-Presentation slides for developers
+Refer to [Nord](https://www.nordtheme.com/)
 
 ---
 
@@ -53,6 +53,19 @@ erDiagram
 
 - This is block diagrams
 
+```md
+<!-- Usage -->
+---
+layout: mermaid-left
+---
+
+<!-- Mermaid code block -->
+
+::right::
+
+- This is block diagrams
+```
+
 ---
 layout: section
 ---
@@ -63,11 +76,10 @@ layout: section
 ---
 
 # Subtitles
-
 Subtitles can be displayed as components
 
-```ts
-// Usage
+```md
+<!-- Usage -->
 <Subtitles
   content="これは日本語の字幕です。折りたたみはしません。二行分のスペースを設けています。"
   >
