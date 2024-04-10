@@ -20,7 +20,11 @@ html {
   #slide-content,#print-content {
     color: var(--text-color-0);
     background-color: var(--slidev-theme-primary);
-  }
+  }  
+}
+
+.slidev-layout {
+  @apply text-2xl;
 }
 
 .slidev-layout.cover,
@@ -51,7 +55,7 @@ html {
 .slidev-layout.default,
 .slidev-layout.mermaid-left {
   h1 {
-    @apply text-5xl font-bold;
+    @apply mb-8 text-5xl font-bold;
   }
 }
 
