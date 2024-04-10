@@ -28,7 +28,7 @@ html {
   @apply h-full grid;
 
   h1 {
-    @apply text-6xl leading-20;
+    @apply text-6xl leading-20 font-bold
   }
 
   h1 + p {
@@ -44,21 +44,18 @@ html {
 
 .slidev-layout.section {
   h1 {
-    @apply text-6xl h-full grid place-content-center;
+    @apply text-6xl h-full grid place-content-center font-bold;
   }
 }
 
-.slidev-layout.default {
+.slidev-layout.default,
+.slidev-layout.mermaid-left {
   h1 {
-    @apply text-5xl;
+    @apply text-5xl font-bold;
   }
 }
 
 .slidev-layout.mermaid-left {
-  h1 {
-    @apply text-5xl;
-  }
-
   .col-left {
     @apply  mr-8;
   }
