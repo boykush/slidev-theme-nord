@@ -37,6 +37,18 @@ layout: section
 # Layouts
 
 ---
+layout: statement
+---
+
+# This is statement layout.
+
+---
+layout: center
+---
+
+# This is center layout.
+
+---
 layout: mermaid-left
 ---
 

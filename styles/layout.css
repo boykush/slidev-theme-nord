@@ -48,7 +48,20 @@ html {
 
 .slidev-layout.section {
   h1 {
-    @apply text-6xl h-full grid place-content-center font-bold;
+    @apply text-6xl h-full grid place-content-center font-bold text-[var(--nord11)];
+  }
+}
+
+.slidev-layout.center,
+.slidev-layout.statement {
+  h1 {
+    @apply text-5xl h-full grid place-content-center font-bold;
+  }
+}
+
+.slidev-layout.statement {
+  h1 {
+    @apply text-[var(--nord12)];
   }
 }
 
