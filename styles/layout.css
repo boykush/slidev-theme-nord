@@ -1,5 +1,9 @@
 @import "./_nord.css";
 
+:root {
+  --slidev-code-font-size: 20px;
+}
+
 html:not(.dark) {
   --slidev-theme-primary: var(--nord5);
   --slidev-code-background: var(--nord3);
@@ -21,6 +25,10 @@ html {
     color: var(--text-color-0);
     background-color: var(--slidev-theme-primary);
   }  
+}
+
+.slidev-code {
+  overflow-wrap: break-word;
 }
 
 .slidev-layout {
