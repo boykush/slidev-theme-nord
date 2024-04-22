@@ -88,6 +88,10 @@ html {
   h3 {
     @apply mb-4 text-4xl font-bold;
   }
+
+  ul {
+    @apply my-4
+  }
 }
 
 .slidev-layout.mermaid-left {
