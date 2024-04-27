@@ -78,7 +78,7 @@ html {
 .slidev-layout.default,
 .slidev-layout.mermaid-left {
   h1 {
-    @apply mb-8 text-6xl font-bold;
+    @apply mb-6 text-6xl font-bold;
   } 
 
   h2 {
@@ -89,8 +89,8 @@ html {
     @apply mb-4 text-4xl font-bold;
   }
 
-  ul {
-    @apply my-4
+  p, ul {
+    @apply my-3
   }
 }
 
