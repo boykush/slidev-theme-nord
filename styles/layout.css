@@ -56,7 +56,8 @@ html {
   }
 }
 
-.slidev-layout.section {
+.slidev-layout.section,
+.slidev-layout.end {
   h1 {
     @apply text-7xl h-full grid place-content-center font-bold text-[var(--nord11)];
   }
