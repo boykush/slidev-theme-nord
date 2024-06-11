@@ -6,6 +6,7 @@
 
 html:not(.dark) {
   --slidev-theme-primary: var(--nord5);
+  --slidev-code-foreground: var(--nord5);
   --slidev-code-background: var(--nord3);
 
   --text-color-0: var(--nord3);
@@ -14,6 +15,7 @@ html:not(.dark) {
 
 html.dark {
   --slidev-theme-primary: var(--nord3);
+  --slidev-code-foreground: var(--nord3);
   --slidev-code-background: var(--nord5);
 
   --text-color-0: var(--nord5);
@@ -72,6 +74,14 @@ html {
 .slidev-layout.statement {
   h1 {
     @apply text-[var(--nord12)];
+  }
+}
+
+.slidev-layout.quote {
+  @apply grid h-full;
+
+  h1 + p {
+    @apply mt-2;
   }
 }
 

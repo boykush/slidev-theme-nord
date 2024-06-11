@@ -31,6 +31,13 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
+layout: quote
+---
+
+# Quote
+> This sentence is a quote, used when directly referencing content from sources such as references or literature.
+
+---
 layout: section
 ---
 
